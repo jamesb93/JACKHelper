@@ -18,7 +18,7 @@ if paramStr(1) != "disconnect":
     connectPlugs(config)
 
 # If the user wants to disconnect
-if paramStr(1) == "disconnect":
+if paramStr(1) == "clean":
     var connections = execCmdEx("jack_lsp -c").output.split("\n")
     var currentNode: string
     var historyDisconnect = newSeq[Actions](0)
