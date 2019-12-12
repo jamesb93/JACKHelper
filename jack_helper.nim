@@ -10,7 +10,7 @@ if paramCount() > 1 or paramCount() < 1:
     echo "Please pass one argument!"
     quit()
 # If the user doesn't want to disconnect
-if paramStr(1) != "disconnect":
+if paramStr(1) != "clean":
     try: config = open(paramStr(1),fmRead)
     except IOError:
         echo "Invalid input file."
