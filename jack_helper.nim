@@ -26,7 +26,7 @@ if paramStr(1) == "disconnect":
 
     for i in 0..len(connections)-2: # ignore the last two blanks
         if connections[i].startsWith("   "): # Find indented connections
-            Check that this connection doesn't exist somewhere in the record
+            # Check that this connection doesn't exist somewhere in the record
             if len(historyDisconnect) == 0:
                 currentDisconnect.node = currentNode
                 currentDisconnect.plug = connections[i].strip()
