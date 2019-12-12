@@ -12,7 +12,7 @@ REAPER:out1 Max:in1
 REAPER:out3 Max:in6
 ```
 
-To then call this 'preset' you would run `ja <path/to/config>`
+To then restore this 'preset' for an active JACK server you would run `ja <path/to/RTOM>`
 
 ## Installation
 1. `git clone` this repo.
@@ -21,7 +21,7 @@ To then call this 'preset' you would run `ja <path/to/config>`
 
 3. run `nimble install`
 
-NOTE: Make sure that the .nimble directory is in your path.
+NOTE: Make sure that the `.nimble` directory is in your path.
 
 ## TODO
 Much of this sits as a wrapper to other command-line calls such as `jack_lsp -c` and `jack_connect`. Ideally I could convert these to use some bindings to JACK in order to manage the server in a more direct way.
