@@ -1,4 +1,4 @@
-# jack_helper
+# ja (jack assist)
 
 ## Usage
 
@@ -12,7 +12,7 @@ REAPER:out1 Max:in1
 REAPER:out3 Max:in6
 ```
 
-To then call this 'preset' you would run `jack_helper <path/to/config>`
+To then call this 'preset' you would run `ja <path/to/config>`
 
 ## Installation
 1. `git clone` this repo.
